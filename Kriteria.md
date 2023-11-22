@@ -18,7 +18,7 @@ challenge Capture the Flag (CTF):
 | No  | Peserta    | Crypto | Forensic | Reverse Engineering | Web Exploitation  | Pwn |
 |----:|------------|--------|----------|---------------------|-------------------|-----|
 | 1   | Dimas      | 1      | -        | -                   | 3                 | -   |
-| 2   | Aimardcr   | 1      | -        | 3                   | 1                 | -   |
-| 3   | Rafi       | -      | 3        | -                   | -                 | -   |
+| 2   | Aimardcr   | 1      | -        | 2                   | 1                 | -   |
+| 3   | Rafi       | -      | 3        | 1                   | -                 | -   |
 | 4   | Zaki       | 1      | -        | -                   | -                 | 3   |
 

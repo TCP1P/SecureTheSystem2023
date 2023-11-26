@@ -4,7 +4,7 @@
 # Required sections
 name: "YARFCC"
 author: "izin bertanya"
-category: pwn
+category: Reverse Engineering
 description: |
     **Author**: `izin bertanya`
 

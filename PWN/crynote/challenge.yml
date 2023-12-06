@@ -2,13 +2,16 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "ORW"
+name: "crynote"
 author: "izin bertanya"
 category: pwn
 description: |
     **Author**: `izin bertanya`
 
-    ~~Open~~ Only Read Write.
+    tingkat kesetresan kuliah:
+    semester 3: prepare mancing (survey joran)
+    semester 4-6: full mancing 
+    semester 7+: nyelem dalem empang
 value: 100
 type: dynamic
 
@@ -43,7 +46,7 @@ host: null
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc {hostname} 11337
+connection_info: nc {hostname} 21337
 
 # healthcheck is a tool/script used to check a challenge
 # If connection_info was provided to CTFd when the challenge was installed, it will be passed to the healthcheck script:
@@ -57,7 +60,7 @@ connection_info: nc {hostname} 11337
 # Can be removed if unused
 # Accepts strings or dictionaries of CTFd API data
 flags:
-    - STS23{warmup_dlu_gan_pake_bof_habistu_lanjut_heap_trus_kernel}
+    - STS23{s0_m4ny_h3ap_ch4lls_0ut_th3r3_but_I_pr3f3r_t0_p1ck_hackn0te_fr0m_pwnable.tw}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
@@ -74,7 +77,7 @@ tags:
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - orw.zip
+    - crynote.zip
 
 # Hints are used to give players a way to buy or have suggestions. They are not
 # required but can be nice.

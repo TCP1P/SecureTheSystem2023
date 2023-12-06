@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $(dirname $0)
-/usr/bin/qemu-system-x86_64 \
+exec timeout --foreground 300 /usr/bin/qemu-system-x86_64 \
         -m 64M \
         -cpu kvm64,+smep,+smap \
         -nographic \

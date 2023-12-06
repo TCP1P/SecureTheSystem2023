@@ -3,6 +3,8 @@
 ## description
 So, I found an USB in my class, I took it and I put it in my laptop. Then i found interesting anime (the anime is in mp4) and rar file and I copied it on my laptop. When i tried to open the file it showed pop up that my computer has been comprimized and my laptop restared after 1 minutes and I immediately remove all file that've been copied to my computer. As an engineer i always capture usb traffic using wireshark. Please help me to figure out what's happening in my laptop.
 
+[download](https://drive.google.com/file/d/1JFQ2p1tRGp_s1rrHWX6glHP2r4nftjR7/view?usp=sharing)
+
 wrap your flag with STS23{`<value>`}
 
 ## solution

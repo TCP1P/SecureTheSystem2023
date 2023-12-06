@@ -2,11 +2,11 @@
 
 ## desc
 
-Just a simple warm up. You know what to do :D
+Is that a `qrcode`? why is it so big?
 
 ## how to solve
 
-1. Is that a `qrcode`? why is it so big?
+1. Just create new file based on the difference, because the rest of it are the same.
 
 ## flag
 

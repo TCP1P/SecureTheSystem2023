@@ -1,0 +1,1 @@
+flag = 'STS23{kalo_kamu_pake_z3_kamu_curang_woi_🗿🗿🗿}'

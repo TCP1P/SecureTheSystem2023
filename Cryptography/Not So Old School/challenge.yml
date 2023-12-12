@@ -42,4 +42,4 @@ state: visible
 # Subject to change until ctfcli v1.0.0
 version: "0.1"
 
-connection_info: nc 178.128.113.198 13337
+connection_info: nc 178.128.113.198 31337

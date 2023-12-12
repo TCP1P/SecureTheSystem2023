@@ -30,10 +30,10 @@ def main():
         try:
             choice = int(input("> "))
             if choice == 1:
-                print(encrypt(flag, key).encode('utf-8').hex())
+                print(encrypt(flag, key).encode('latin1').hex())
             elif choice == 2:
                 s = input("Enter string to encrypt: ")
-                print(encrypt(s, key).encode('utf-8').hex())
+                print(encrypt(s, key).encode('latin1').hex())
             elif choice == 3:
                 break
             else:

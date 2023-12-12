@@ -23,13 +23,12 @@ def image_to_matrix(image_path, matrix_size):
             if pixel == 0:
                 row.append(1)  # Wall
             else:
-                print(pixel) 
                 row.append(0)  # Path
         matrix.append(row)
     return matrix
 
 # Example usage
-image_path = 'level-solve.png'
+image_path = 'level.png'
 matrix_size = (81, 57)  # Desired size of the matrix
 matrix = image_to_matrix(image_path, matrix_size)
 

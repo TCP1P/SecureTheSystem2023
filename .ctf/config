@@ -3,4 +3,20 @@ url = http://34.101.126.116/
 access_token = ctfd_61c6a69d5c8ca11eb5f193b6ad0609ac0b916074f385df48ba7024692814a71e
 
 [challenges]
+./PWN/crynote = ./PWN/crynote
+./PWN/double skull = ./PWN/double skull
+./PWN/orw = ./PWN/orw
+./Forensic/sloppy = ./Forensic/sloppy
+./Forensic/pemanasan = ./Forensic/pemanasan
+./Forensic/keylogger = ./Forensic/keylogger
+./Web/Blue Monday = ./Web/Blue Monday
+./Web/Bun = ./Web/Bun
+./Web/UREL-EX2S = ./Web/UREL-EX2S
+./Web/Notes Manager = ./Web/Notes Manager
+./Reverse Engineering/JNI = ./Reverse Engineering/JNI
+./Reverse Engineering/Maze = ./Reverse Engineering/Maze
+./Reverse Engineering/yarfcc = ./Reverse Engineering/yarfcc
+./Cryptography/calculus = ./Cryptography/calculus
+./Cryptography/JWT ARCANUM = ./Cryptography/JWT ARCANUM
+./Cryptography/Not So Old School = ./Cryptography/Not So Old School
 

@@ -18,5 +18,6 @@ RUN composer install --no-scripts
 COPY ./src/ /srv/app/
 
 RUN chown -R www-data:www-data ./storage/
+RUN chown -R www-data:www-data ./bootstrap/cache/
 
 USER www-data

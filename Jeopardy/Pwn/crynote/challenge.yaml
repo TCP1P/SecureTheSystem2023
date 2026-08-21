@@ -1,0 +1,11 @@
+name: crynote
+author: izin bertanya
+description: "**Author**: `izin bertanya`\n\ntingkat kesetresan kuliah:\nsemester 3: prepare mancing (survey joran)\nsemester 4-6: full mancing \nsemester 7+: nyelem dalem empang\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/crynote)."
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{s0_m4ny_h3ap_ch4lls_0ut_th3r3_but_I_pr3f3r_t0_p1ck_hackn0te_fr0m_pwnable.tw}
+provide: dist

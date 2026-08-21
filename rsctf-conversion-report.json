@@ -1,0 +1,188 @@
+{
+  "sourceRepository": "TCP1P/SecureTheSystem2023",
+  "targetRepository": "TCP1P/SecureTheSystem2023",
+  "private": false,
+  "events": [
+    "Securi(e) The System 2023"
+  ],
+  "challenges": [
+    {
+      "name": "JWT ARCANUM",
+      "category": "Crypto",
+      "source": "Cryptography/JWT ARCANUM/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/JWT%20ARCANUM",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/jwt-arcanum/challenge.yaml"
+    },
+    {
+      "name": "Not So Old School",
+      "category": "Crypto",
+      "source": "Cryptography/Not So Old School/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/Not%20So%20Old%20School",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/not-so-old-school/challenge.yaml"
+    },
+    {
+      "name": "calculus",
+      "category": "Crypto",
+      "source": "Cryptography/calculus/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/calculus",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/calculus/challenge.yaml"
+    },
+    {
+      "name": "keylogger",
+      "category": "Forensics",
+      "source": "Forensic/keylogger/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/keylogger",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Forensics/keylogger/challenge.yaml"
+    },
+    {
+      "name": "pemanasan",
+      "category": "Forensics",
+      "source": "Forensic/pemanasan/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/pemanasan",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Forensics/pemanasan/challenge.yaml"
+    },
+    {
+      "name": "sloppy",
+      "category": "Forensics",
+      "source": "Forensic/sloppy/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/sloppy",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Forensics/sloppy/challenge.yaml"
+    },
+    {
+      "name": "crynote",
+      "category": "Pwn",
+      "source": "PWN/crynote/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/crynote",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/crynote/challenge.yaml"
+    },
+    {
+      "name": "💀💀",
+      "category": "Pwn",
+      "source": "PWN/double skull/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/double%20skull",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/challenge/challenge.yaml"
+    },
+    {
+      "name": "orw",
+      "category": "Pwn",
+      "source": "PWN/orw/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/orw",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/orw/challenge.yaml"
+    },
+    {
+      "name": "JNI",
+      "category": "Reverse",
+      "source": "Reverse Engineering/JNI/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/JNI",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Reverse/jni/challenge.yaml"
+    },
+    {
+      "name": "Maze",
+      "category": "Reverse",
+      "source": "Reverse Engineering/Maze/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/Maze",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Reverse/maze/challenge.yaml"
+    },
+    {
+      "name": "YARFCC",
+      "category": "Reverse",
+      "source": "Reverse Engineering/yarfcc/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/yarfcc",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Reverse/yarfcc/challenge.yaml"
+    },
+    {
+      "name": "Blue Monday",
+      "category": "Web",
+      "source": "Web/Blue Monday/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Blue%20Monday",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/blue-monday/challenge.yaml"
+    },
+    {
+      "name": "Bun",
+      "category": "Web",
+      "source": "Web/Bun/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Bun",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/bun/challenge.yaml"
+    },
+    {
+      "name": "Notes Manager",
+      "category": "Web",
+      "source": "Web/Notes Manager/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Notes%20Manager",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/notes-manager/challenge.yaml"
+    },
+    {
+      "name": "UREL-EX2S",
+      "category": "Web",
+      "source": "Web/UREL-EX2S/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/UREL-EX2S",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/urel-ex2s/challenge.yaml"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: Bun
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Have you heard about ''Bun,'' the latest JavaScript compiler on the block?
+
+  Being a newcomer, there might be vulnerabilities waiting to be discovered, don''t you think?
+
+  I''m seeking your expertise to assist me in hacking into this Bun application of mine.
+
+  Your skills could unveil potential weaknesses in this cutting-edge JavaScript compiler.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Bun).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{not_0_day_but_is_nice_to_exploit_some_debug_mode_functionality}
+provide: dist

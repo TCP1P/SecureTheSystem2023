@@ -1,0 +1,21 @@
+name: Maze
+author: aimardcr
+description: '**Author**: `aimardcr`
+
+
+  bingung mau bikin chall apa, jadi yaudah have fun aja main ni game.
+
+  btw wrong moves = wrong flag, even if u finished the game.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/Maze).'
+type: StaticAttachment
+category: Reverse
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{Th1s_F33ls_L1k3_A_C0mp3t1v3_Pr0gr4mm1ng_Pr0bl3m_Inst34d}
+provide: dist

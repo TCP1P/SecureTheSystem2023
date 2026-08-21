@@ -1,0 +1,19 @@
+name: 💀💀
+author: izin bertanya
+description: '**Author**: `izin bertanya`
+
+
+  last time in TCP1PCTF I dropped a kernel chall, but apparently no one solved with intended solution. Pls this time solve it with intended one :prayge:
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/double%20skull).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{damn_bro_imagine_getting_pwned_twice😥😢}
+provide: dist

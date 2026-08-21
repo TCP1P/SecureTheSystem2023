@@ -1,0 +1,5 @@
+sloppy
+
+Original source: https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/sloppy
+
+Local archive note: no player attachment files were present.

@@ -1,0 +1,25 @@
+name: UREL-EX2S
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Have you heard the exciting news? The little princess has just created a website for fellow GT fans to connect and chat!
+
+  Before the official launch, we want to ensure a secure experience for everyone. Could you help us by testing it for potential XSS vulnerabilities?
+
+  We want to make sure her fans don''t encounter any issues with data security,
+
+  especially from those pesky Android robots.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/UREL-EX2S).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{xss_in_url_path!you_must_be_kidding_right?}
+provide: dist

@@ -1,0 +1,16 @@
+name: calculus
+author: kyruuu
+description: 'Cryptography is always related to math, so I think you need to learn algebra to solve this problem. Good luck!
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/calculus).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{kalo_kamu_pake_z3_kamu_curang_woi_🗿🗿🗿}
+provide: dist

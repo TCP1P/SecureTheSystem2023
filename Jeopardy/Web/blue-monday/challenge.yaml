@@ -1,0 +1,19 @@
+name: Blue Monday
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Blue Monday, Red Sunday...
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Blue%20Monday).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{sadly_xhtml_din't_fully_support_inline_style:(}
+provide: dist

@@ -1,0 +1,19 @@
+name: orw
+author: izin bertanya
+description: '**Author**: `izin bertanya`
+
+
+  ~~Open~~ Only Read Write.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/orw).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{warmup_dlu_gan_pake_bof_habistu_lanjut_heap_trus_kernel}
+provide: dist

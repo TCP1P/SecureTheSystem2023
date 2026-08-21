@@ -1,0 +1,11 @@
+name: keylogger
+author: kyruuu
+description: "So, here's the thing. I just came to the Internet caffee (warnet) and \nafter several minutes using the computer, I found a strange process \nrunning in the backround. Then i found out it was a keylogger. Luckily \nI can stop the process and don't let the attacker get this keylogger \nfile. Because i just logged in to my server before.\n\nflag = STS23{`<my server password>`}\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/keylogger)."
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{th1smys3cretp@ssw0rd}
+provide: dist

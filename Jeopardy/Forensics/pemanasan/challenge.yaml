@@ -1,0 +1,16 @@
+name: pemanasan
+author: kyruuu
+description: 'Is that a `qrcode`? why is it so big?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/pemanasan).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{really_big_qr_isnt_it}
+provide: dist

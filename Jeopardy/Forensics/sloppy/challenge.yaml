@@ -1,0 +1,11 @@
+name: sloppy
+author: kyruuu
+description: "So, I found an USB in my class, I took it and I put it in my laptop. \nThen i found interesting anime (the anime is in mp4) and rar file and I \ncopied it on my laptop. When i tried to open the file it showed pop up \nthat my computer has been comprimized and my laptop restared after 1 minutes \nand I immediately remove all file that've been copied to my computer. As \nan engineer i always capture usb traffic using wireshark. Please help \nme to figure out what's happening in my laptop.\n\n[download](https://drive.google.com/file/d/1JFQ2p1tRGp_s1rrHWX6glHP2r4nftjR7/view?usp=sharing)\n\nwrap your flag with STS23{`<value>`}\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/sloppy)."
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- STS23{C0mPrem1zed_d3sktop_h3h3}
+provide: dist

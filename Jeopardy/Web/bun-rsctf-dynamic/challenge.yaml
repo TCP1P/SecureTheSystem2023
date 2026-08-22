@@ -15,11 +15,14 @@ description: '**Author**: `Dimas`
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Bun).'
-type: StaticAttachment
+type: DynamicContainer
 category: Web
 minScoreRate: 0.1
 difficulty: 5
 disableBloodBonus: false
-flags:
-- STS23{not_0_day_but_is_nice_to_exploit_some_debug_mode_functionality}
-provide: dist
+flagTemplate: STS23{bun___________________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false

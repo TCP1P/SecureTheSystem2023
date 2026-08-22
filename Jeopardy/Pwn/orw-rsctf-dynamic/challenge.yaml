@@ -9,11 +9,14 @@ description: '**Author**: `izin bertanya`
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/orw).'
-type: StaticAttachment
+type: DynamicContainer
 category: Pwn
 minScoreRate: 0.1
 difficulty: 5
 disableBloodBonus: false
-flags:
-- STS23{warmup_dlu_gan_pake_bof_habistu_lanjut_heap_trus_kernel}
-provide: dist
+flagTemplate: STS23{orw____________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 11337
+  enableTrafficCapture: false

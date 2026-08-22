@@ -12,8 +12,9 @@
       "source": "Cryptography/JWT ARCANUM/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/JWT%20ARCANUM",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Crypto/jwt-arcanum/challenge.yaml"
     },
@@ -22,11 +23,15 @@
       "category": "Crypto",
       "source": "Cryptography/Not So Old School/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/Not%20So%20Old%20School",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'STS23{not_[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Crypto/not-so-old-school/challenge.yaml"
+      "manifest": "Jeopardy/Crypto/not-so-old-school-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "calculus",
@@ -34,8 +39,9 @@
       "source": "Cryptography/calculus/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Cryptography/calculus",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Crypto/calculus/challenge.yaml"
     },
@@ -45,8 +51,9 @@
       "source": "Forensic/keylogger/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/keylogger",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Forensics/keylogger/challenge.yaml"
     },
@@ -56,8 +63,9 @@
       "source": "Forensic/pemanasan/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/pemanasan",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Forensics/pemanasan/challenge.yaml"
     },
@@ -67,8 +75,9 @@
       "source": "Forensic/sloppy/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Forensic/sloppy",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "Jeopardy/Forensics/sloppy/challenge.yaml"
@@ -78,33 +87,45 @@
       "category": "Pwn",
       "source": "PWN/crynote/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/crynote",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'STS23{crynote____________________________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Pwn/crynote/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/crynote-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "💀💀",
       "category": "Pwn",
       "source": "PWN/double skull/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/double%20skull",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'STS23{challenge___________________[TEAM_HASH]}'",
+        "dynamic flag delivery uses the gzip cpio flag image adapter",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Pwn/challenge/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/challenge-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "orw",
       "category": "Pwn",
       "source": "PWN/orw/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/orw",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'STS23{orw____________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Pwn/orw/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/orw-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "JNI",
@@ -112,8 +133,9 @@
       "source": "Reverse Engineering/JNI/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/JNI",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Reverse/jni/challenge.yaml"
     },
@@ -123,8 +145,9 @@
       "source": "Reverse Engineering/Maze/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/Maze",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Reverse/maze/challenge.yaml"
     },
@@ -134,8 +157,9 @@
       "source": "Reverse Engineering/yarfcc/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Reverse%20Engineering/yarfcc",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Reverse/yarfcc/challenge.yaml"
     },
@@ -145,8 +169,9 @@
       "source": "Web/Blue Monday/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Blue%20Monday",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Web/blue-monday/challenge.yaml"
     },
@@ -155,11 +180,15 @@
       "category": "Web",
       "source": "Web/Bun/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Bun",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'STS23{bun___________________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Web/bun/challenge.yaml"
+      "manifest": "Jeopardy/Web/bun-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Notes Manager",
@@ -167,8 +196,9 @@
       "source": "Web/Notes Manager/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/Notes%20Manager",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "Jeopardy/Web/notes-manager/challenge.yaml"
@@ -179,8 +209,9 @@
       "source": "Web/UREL-EX2S/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/SecureTheSystem2023/tree/main/Web/UREL-EX2S",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "Jeopardy/Web/urel-ex2s/challenge.yaml"
     }

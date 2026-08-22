@@ -9,11 +9,14 @@ description: '**Author**: `izin bertanya`
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/SecureTheSystem2023/tree/main/PWN/double%20skull).'
-type: StaticAttachment
+type: DynamicContainer
 category: Pwn
 minScoreRate: 0.1
 difficulty: 5
 disableBloodBonus: false
-flags:
-- STS23{damn_bro_imagine_getting_pwned_twice😥😢}
-provide: dist
+flagTemplate: STS23{challenge___________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 31337
+  enableTrafficCapture: false

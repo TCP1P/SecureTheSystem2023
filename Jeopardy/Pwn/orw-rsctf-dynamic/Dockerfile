@@ -1,40 +1,25 @@
-FROM ubuntu:23.10
+FROM ubuntu:24.04
+
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN sed -i -e 's|archive.ubuntu.com|old-releases.ubuntu.com|g' -e 's|security.ubuntu.com|old-releases.ubuntu.com|g' /etc/apt/sources.list && \
-    apt-get update && apt-get install -y libglib2.0-dev gcc gdb libc6-dbg xinetd
-RUN groupadd -r ctf && useradd -r -g ctf ctf
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends socat \
+    && rm -rf /var/lib/apt/lists/*
 
-ADD challenge/orw /home/ctf/chall
+RUN groupadd --system ctf \
+    && useradd --system --gid ctf --home-dir /home/ctf --no-create-home ctf \
+    && mkdir -p /home/ctf
 
-RUN echo '#!/bin/bash\nservice xinetd restart && /bin/sleep infinity' > /etc/init.sh
-RUN echo 'service ctf\n\
-{\n\
-    disable = no\n\
-    socket_type = stream\n\
-    protocol = tcp\n\
-    wait = no\n\
-    user = ctf\n\
-    type = UNLISTED\n\
-    port = 11337\n\
-    bind = 0.0.0.0\n\
-    server = /home/ctf/run\n\
-}' > /etc/xinetd.d/ctf
-RUN echo '#!/bin/bash\ncd /home/ctf && ./chall' > /home/ctf/run
-
-RUN echo "RSCTF_DYNAMIC_FLAG_b3f01fa8a710e72353886513cf7b47f305682de4c04" > /home/ctf/flag.txt
-RUN chmod 444 /home/ctf/flag.txt
-
-RUN chmod 400 /etc/xinetd.d/ctf
-RUN chmod 550 /home/ctf/chall /home/ctf/run /etc/init.sh
+COPY challenge/orw /home/ctf/chall
+RUN printf '%s\n' 'RSCTF_DYNAMIC_FLAG_b3f01fa8a710e72353886513cf7b47f305682de4c04' > /home/ctf/flag.txt \
+    && chown -R root:ctf /home/ctf \
+    && chmod 0550 /home/ctf/chall \
+    && chmod 0440 /home/ctf/flag.txt
 
 WORKDIR /home/ctf
-RUN chown -R root:ctf /home/ctf
-RUN service xinetd restart
+EXPOSE 11337
+CMD ["socat", "TCP-LISTEN:11337,reuseaddr,fork", "EXEC:/home/ctf/chall,su=ctf"]
 
-# RSCTF dynamic-flag compatibility layer. The build-time scan records
-# exact marker-bearing files; runtime replacement is therefore bounded
-# to those files instead of walking the image on every team start.
 USER root
 COPY rsctf-entrypoint.sh /usr/local/bin/rsctf-entrypoint
 RUN set -eu; \

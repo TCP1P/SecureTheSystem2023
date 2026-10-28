@@ -1,7 +1,8 @@
 FROM ubuntu:23.10
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y libglib2.0-dev gcc gdb libc6-dbg xinetd
+RUN sed -i -e 's|archive.ubuntu.com|old-releases.ubuntu.com|g' -e 's|security.ubuntu.com|old-releases.ubuntu.com|g' /etc/apt/sources.list && \
+    apt-get update && apt-get install -y libglib2.0-dev gcc gdb libc6-dbg xinetd
 RUN groupadd -r ctf && useradd -r -g ctf ctf
 
 ADD challenge/orw /home/ctf/chall

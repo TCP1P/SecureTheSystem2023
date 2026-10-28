@@ -8,7 +8,7 @@ RUN mkdir -p /ctf
 WORKDIR /ctf
 COPY . .
 
-RUN pip3 install chess
+RUN pip3 install --break-system-packages chess
 
 RUN chmod 644 flag.txt
 
